@@ -1,0 +1,3 @@
+/Users/williamvu/Documents/Personal_Code/SQL-Clone/build/CMakeFiles/mini_sqlite.dir
+/Users/williamvu/Documents/Personal_Code/SQL-Clone/build/CMakeFiles/edit_cache.dir
+/Users/williamvu/Documents/Personal_Code/SQL-Clone/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,38 @@
+-- Mini SQLite Sample Queries
+-- Test these commands in your mini database engine
+
+-- Create a users table
+CREATE TABLE users (id INTEGER, name TEXT, age INTEGER);
+
+-- Insert some sample data
+INSERT INTO users VALUES (1, 'Alice', 25);
+INSERT INTO users VALUES (2, 'Bob', 30);
+INSERT INTO users VALUES (3, 'Charlie', 22);
+INSERT INTO users VALUES (4, 'Diana', 28);
+
+-- Select all users
+SELECT * FROM users;
+
+-- Select specific user
+SELECT * FROM users WHERE id = 2;
+SELECT * FROM users WHERE name = 'Alice';
+
+-- Update a user's age
+UPDATE users SET age = 31 WHERE id = 2;
+
+-- Delete a user
+DELETE FROM users WHERE id = 4;
+
+-- Create another table for products
+CREATE TABLE products (id INTEGER, name TEXT, price REAL);
+
+-- Insert products
+INSERT INTO products VALUES (1, 'Laptop', 999.99);
+INSERT INTO products VALUES (2, 'Mouse', 29.95);
+INSERT INTO products VALUES (3, 'Keyboard', 79.50);
+
+-- Select all products
+SELECT * FROM products;
+
+-- Select expensive products
+SELECT * FROM products WHERE price = 999.99;
